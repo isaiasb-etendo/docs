@@ -2,8 +2,9 @@ site_name: Etendo Documentation
 
 repo_url: https://github.com/etendosoftware
 repo_name: etendosoftware
-site_url: https://docs.etendo.software
+site_url: https://docstest.etendo.software
 theme:
+  language: en
   name: material
   logo: assets/logo.png
   icon:
@@ -24,7 +25,6 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-  language: en
   palette:
     # Palette toggle for light mode
     - scheme: custom
@@ -73,6 +73,9 @@ plugins:
   - tags
   - glightbox
 extra:
+  version:
+    provider: mike
+    default: stable
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/etendosoftware
